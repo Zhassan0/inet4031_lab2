@@ -5,3 +5,9 @@ c=$((a+b))
 
 echo "Bash says: Hello, World!"
 echo "$a + $b = $c"
+users=(User1 User2 User3)
+for users in ${users[@]}
+do
+	echo $users
+done
+
